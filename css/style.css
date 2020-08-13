@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: url('https://tr-images.condecdn.net/image/Y30W8n9xGkw/crop/1620/f/inside-lyles-restaurant-shoreditch-london-conde-nast-traveller-17aug17-Xavier-Girard-Lachaine.jpg');
+    /* height: 500px; */
+    padding: 200px 100px 150px 0px;
+    /* padding: 0; */
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar-custom {
+    background-color: rgb(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-custom .navbar-brand {
+    color: #000;
+    font-family: "Josefin Sans", sans-serif;
+    color: #091a23;
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.navbar-toggler {
+    background-color: #ff5600 !important;
+    color: #ccc;
+}
+
+.navbar-custom .navbar-brand:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #ff5600;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.logo-design {
+    color: #ff5600;
+}
+
+#navbarNavDropdown ul li {
+    padding-right: 15px;
+}
+
+.navbar-custom .custom-link {
+    font-family: "Josefin Sans", sans-serif;
+    color: #091a23;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar-custom .custom-link:hover {
+    color: #ff5600;
+}
+
+.navbar-custom #signupbtn {
+    border: 1px solid #ff5600;
+    color: #464d65;
+    background: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 12px 30px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.navbar-custom button:hover {
+    background: #ff5600;
+    color: #fff;
+    border: none;
+}
+
+.navbar-custom .active a {
+    color: #ff5600 !important;
+}
+
+.header-title {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.header-subtitle {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.header-text {
+    /* position: absolute;
+    top: 150px;
+    left: 100px; */
+    color: #000;
+    padding-left: 65px;
+}
+
+.button {
+    background-color: #ff5600;
+    border: 1px solid #ff5600;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.button:focus {
+    background-color: #ff5600;
+    border: 1px solid #ff5600;
+    color: #fff;
+}
+
+.food-category h3 {
+    color: #ff5600;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0;
+}
+
+.food-category .col-md-4 .category-title {
+    position: absolute;
+    bottom: -10px;
+    width: 90%;
+    padding-left: 10px;
+    padding-top: 5px;
+    /* background: rgba(255, 255, 255, 0.1); */
+    color: #fff;
+    z-index: 1;
+}
+
+.food-category .col-md-4 .category-title p {
+    margin-top: -15px;
+}
+
+.food-category .col-md-4 {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.food-category h2 {
+    font-size: 24px;
+    text-transform: capitalize;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.food-category img {
+    height: 300px;
+    width: 100%;
+    filter: brightness(60%)
+}
+
+.modal input,
+.modal .input {
+    height: 3.0rem;
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    color: rgb(28, 28, 28);
+    padding: 10px 15px;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(207, 207, 207);
+    border-image: initial;
+    outline: none;
+    border-radius: 0.6rem;
+}
+
+.modal textarea {
+    font-size: 18px;
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    color: rgb(28, 28, 28);
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(207, 207, 207);
+    border-image: initial;
+    outline: none;
+    border-radius: 0.6rem;
+}
+
+.modal input:focus {
+    border-color: #ff5600;
+}
+
+.modal-title {
+    font-size: 26px;
+    font-weight: 400;
+    color: rgb(79, 79, 79);
+}
+
+.modal .modal-body .button {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 10px;
+}
+
+#registerModal #restaurantName {
+    display: none;
+}
+
+#registerModal #restaurantAddress {
+    display: none;
+}
+
+#registerModal .alert-success {
+    display: none;
+}
+
+#registerModal .alert-danger {
+    display: none;
+}
+
+#loginModal .alert-danger {
+    display: none;
+}
+
+.modal-footer {
+    align-items: left;
+    justify-content: left;
+    color: #000;
+}
+
+.modal-footer .hint-text {
+    text-align: left;
+}
+
+.modal-footer a,
+.modal .alert-success a {
+    text-decoration: none;
+    color: #ff5600;
+}
+
+.radio-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default radio button */
+
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.radio-container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.radio-container input:checked~.checkmark {
+    background-color: #ff5600;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.radio-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.menu-list .col-md-3 {
+    margin-top: 10px;
+}
+
+.menu-list .item-title {
+    display: flex;
+}
+
+.menu-list .item-title h2 {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: inherit;
+    line-height: 1.0;
+    color: #111;
+}
+
+.menu-list .item-description p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: .700rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #6c757d;
+    text-align: left;
+}
+
+.menu-list img {
+    height: 200px;
+}
+
+.menu-list .item-price {
+    width: 10%;
+}
+
+.menu-list .item-price p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #ff5600;
+    float: right;
+}
+
+.menu-list .item-price p:before {
+    content: '$';
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #ff5600;
+}
+
+.menu-list .order-details {
+    padding: 8px 10px;
+    background: #e3eaef;
+    border-top: none;
+    border-color: #eee;
+}
+
+.menu-list .order-details .order-button button {
+    /* padding: 6px 8px; */
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    margin: auto;
+}
+
+.food-category .footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.loader-container {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    padding-top: 300px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+
+/* Safari */
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Style the indicator (dot/circle) */
+
+.radio-container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+@media (max-width: 575px) {
+    .header-text {
+        color: #000;
+        padding-left: 20px;
+    }
+    .header-title {
+        font-weight: bolder;
+        font-size: 2em;
+    }
+    .header-subtitle {
+        font-weight: bold;
+        font-size: 1em;
+    }
+    .header {
+        background-position: left;
+    }
+}

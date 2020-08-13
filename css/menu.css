@@ -1,0 +1,115 @@
+.header {
+    /* height: 500px; */
+    padding: 0px 0px 0px 0px;
+}
+
+.navbar-custom {
+    background-color: rgb(255, 255, 255, 0.9);
+    position: relative;
+}
+
+.menu-list .col-md-4 {
+    margin-top: 10px;
+}
+
+.menu-list .item-title {
+    display: flex;
+}
+
+.menu-list .item-title h2 {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: inherit;
+    line-height: 1.2;
+    color: #111;
+}
+
+.menu-list .item-description p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align: left;
+}
+
+.menu-list .item-price {
+    width: 10%;
+}
+
+.menu-list .item-price p {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #ff5600;
+    float: right;
+}
+
+.menu-list .item-price p:before {
+    content: '$';
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #ff5600;
+}
+
+.menu-list .order-details {
+    padding: 15px 20px;
+    background: #e3eaef;
+    border-top: none;
+    border-color: #eee;
+    display: flex;
+}
+
+.menu-list .order-details .address {
+    width: 50%;
+}
+
+.menu-list .order-details .address span {
+    color: #ff5600;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu-list .order-details address {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list .order-details .order-button {
+    width: 50%;
+    height: 100%;
+}
+
+#orderModal textarea {
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    color: rgb(28, 28, 28);
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(207, 207, 207);
+    border-image: initial;
+    outline: none;
+    border-radius: 0.6rem;
+}
+
+#orderModal .alert-success {
+    display: none;
+}
+
+#orderModal .alert-danger {
+    display: none;
+}
+
+.menu-list .button:disabled {
+    background-color: #a9adb1;
+    border: none;
+    color: #333333;
+}
+
+.menu-list .order-details .button {
+    float: right;
+    padding: .375rem .75rem;
+    margin-top: 5px;
+}
